@@ -1,0 +1,16 @@
+
+I have included the list.h and list_hack.h into my proj2proto folder to help simulate functions before addressing the kernal.
+
+My first goal was to complete the prototype functions by using the list.h and lish_hack.h files and making sure there were no valgrind error in each "syscall" function.
+
+list.h and list_hack.h files: https://github.com/Zinadore/userspace_list
+
+I have also referenced the example code using list.h to help me write fuctions to loop, index, and check through the list used in my prototype functions. 
+
+example referenced from: https://github.com/Zinadore/userspace_list/blob/main/examples/list_examples.c
+
+I then gradually converted the the prototype into code necessary for the syscalls in the kernal. Starting with the basic functions like create, remove, reset, count, and etc. I then moved on to the more complex and  syscalls like send and receive.
+
+I also referenced code from stack exchange to check for root id value to return error codes for create, remove, and reset.
+
+Code referenced: https://stackoverflow.com/questions/27866395/in-kernel-program-get-root-user-id-and-compare-with-current-user-id
