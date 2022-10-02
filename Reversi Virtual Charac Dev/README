@@ -1,0 +1,30 @@
+Compile: 'make'
+
+Clean: 	 'make clean'
+
+Loading the module requires:
+	
+	'sudo insmod ./reversiDevice.ko'
+
+Unloading the module requires:
+	
+	'sudo rmmod reversiDevice'
+
+
+References:
+
+I used online document of the game reversi to help me understand how the game is played.
+
+Rules for Reversi and Othello. (n.d.). Retrieved April 04, 2021, from https://www.mastersofgames.com/rules/reversi-othello-rules.htm 
+
+I used this reference to help me understand how character devices are used, which includes using file operations and registering devices
+
+Salzman, P. J., Burian, M., & Pomerantz, O. (2005, December 31). 4.1. character device drivers. Retrieved April 04, 2021, from https://linux.die.net/lkmpg/x569.html 
+
+I used both these reference to help me understand misc devices
+
+Tang, J. (n.d.). Lecture 18: Device Drivers. Retrieved April 04, 2021, from https://www.csee.umbc.edu/~jtang/archives/cs421.f19/l	ectures/L18DeviceDrivers.pdf 
+
+SLR. (n.d.). Misc device driver - Linux device driver Tutorial PART 32. Retrieved April 28, 2021, from https://embetronicx.com/tutorials/linux/device-drivers/misc-device-driver/
+
+
